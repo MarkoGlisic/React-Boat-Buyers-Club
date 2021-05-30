@@ -1,0 +1,17 @@
+
+.overlay {
+    height: 100%;
+    width: 100%;
+z-index: 1;
+    background: rgba(5,15,54,0.45);
+    color: white;
+  }
+.hero-img {
+    
+        height: 350px;
+        width: auto;
+        position: relative;
+        background-size: cover;
+        background-position: 50% 50%;
+      }
+

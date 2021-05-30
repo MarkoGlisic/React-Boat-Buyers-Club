@@ -1,0 +1,52 @@
+.boat-container {
+  padding: 20px;
+  margin: 20px 20px 0px 20px;
+  font-family: "Playfair Display";
+}
+
+.boat-promo-img img {
+  width: 300px;
+  height: 200px;
+
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.animate {
+  animation: slidein 2s ease-in;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.separator {
+  height: 26px;
+
+  background-image: linear-gradient(
+    to right,
+    firebrick 20%,
+    rgb(128, 121, 121) 75%
+  );
+  background-size: 25% 2px;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+}
+
+.boat-text {
+  padding-top: 20px;
+  text-align: left;
+  color: #515c6d;
+  font-weight: 100;
+  font-size: 15px;
+}
+.boat-title {
+  font-size: 21px;
+  font-weight: bolder;
+}

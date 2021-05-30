@@ -1,0 +1,63 @@
+.footer-container {
+  width: 100%;
+  bottom: 0;
+  height: 500px;
+  background: #050f36;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-elements {
+  width: 100%;
+  position: relative;
+  top: -20%;
+  height: 200px;
+}
+
+.logo-container-footer {
+  display: flex;
+  position: relative;
+  top: -10%;
+  flex-direction: column;
+}
+
+.logo-container-footer img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 0;
+  left: 37%;
+}
+.logo-text {
+  padding-top: 10px;
+}
+.social-media-btn a {
+  margin: 20px 10px 10px 10px;
+  padding-top: 55px;
+  font-size: 25px;
+  color: #3f5ebd;
+}
+
+.company-footer-email {
+  padding: 10px;
+}
+
+.location-and-info {
+  margin-top: -10px;
+}
+
+.policy {
+  padding-bottom: 50px;
+  background-color: #040c2a;
+  margin-top: 20px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.policy p {
+  padding-top: 3px;
+}
